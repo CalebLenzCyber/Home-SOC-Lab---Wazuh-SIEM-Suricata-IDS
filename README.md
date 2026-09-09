@@ -114,26 +114,30 @@ Maps the defined tools to distinct alert thresholds and routing rules.
 3. **Mitigation Execution:** The manager intercepted the match, fired the playbook, and logged alert **Rule ID 657** (*Active response: active-response/bin/netsh.exe - add*).
 4. **Verification:** Running advanced filtering inside PowerShell verified that the Advanced Windows Defender Firewall dynamically isolated the source threat:
    ```powershell
-   
-![PowerShell Advanced Firewall Verification Output](screenshots/powershell.png)
 
+---
+![PowerShell Advanced Firewall Verification Output](screenshots/powershell.png)
+---
 
    Get-NetFirewallRule | Where-Object { $_.DisplayName -like "*Active Response*" -or $_.Name -like "*Wazuh*" } | Get-NetFirewallAddressFilter
    # Output -> RemoteAddress: 192.168.20.26
    ```
 
+Output -> RemoteAddress: 192.168.20.26
+
 ##### Dashboard Verification Log Trail
+
 ```text
 [Timestamp]                  [Agent Name]    [Rule Description]                                          [Level]  [Rule ID]
 Jul 28, 2026 @ 20:18:13.480  PXMX-WIN11      Active response: active-response/bin/netsh.exe - add        3        657
 Jul 28, 2026 @ 20:18:11.631  PXMX-WIN11      Active response: active-response/bin/netsh.exe - add        3        657
 Jul 28, 2026 @ 20:18:11.552  PXMX-WIN11      Active response: active-response/bin/netsh.exe - add        3        657
 Jul 28, 2026 @ 20:18:10.195  PXMX-WIN11      Logon Failure - Unknown user or bad password                5        60122
+
 ```
 <a href="screenshots/wazuh-dashboard.png" target="_blank">
   <img src="screenshots/wazuh-dashboard.png" alt="Click to enlarge dashboard" width="100%">
-</a>
-
+</a
 ---
 
 ### 5. Network IDS Deployment & Routing Workarounds (Suricata)
