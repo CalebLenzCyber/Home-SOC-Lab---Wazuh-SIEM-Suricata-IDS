@@ -115,7 +115,7 @@ Maps the defined tools to distinct alert thresholds and routing rules.
 4. **Verification:** Running advanced filtering inside PowerShell verified that the Advanced Windows Defender Firewall dynamically isolated the source threat:
    ```powershell
 
-   ![PowerShell Advanced Firewall Verification Output](screenshots/powershell_output.png)
+   ![PowerShell Advanced Firewall Verification Output](screenshots/powershell.png)
 
    Get-NetFirewallRule | Where-Object { $_.DisplayName -like "*Active Response*" -or $_.Name -like "*Wazuh*" } | Get-NetFirewallAddressFilter
    # Output -> RemoteAddress: 192.168.20.26
