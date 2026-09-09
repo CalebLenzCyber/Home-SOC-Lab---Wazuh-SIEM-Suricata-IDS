@@ -136,9 +136,9 @@ Jul 28, 2026 @ 20:18:10.195  PXMX-WIN11      Logon Failure - Unknown user or bad
 
 ```
 
-| Verification Screenshot |
-| :---: |
-| [![Wazuh Dashboard](screenshots/wazuh-dashboard.png)](screenshots/wazuh-log.png) <br> *Click image to open full resolution view* |
+<a href="screenshots/wazuh-dashboard.png" target="_blank">
+  <img src="screenshots/wazuh-dashboard.png" alt="Click to enlarge dashboard" width="100%">
+</a>
 
 ---
 
