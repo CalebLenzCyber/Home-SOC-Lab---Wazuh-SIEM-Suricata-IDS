@@ -135,9 +135,11 @@ Jul 28, 2026 @ 20:18:11.552  PXMX-WIN11      Active response: active-response/bi
 Jul 28, 2026 @ 20:18:10.195  PXMX-WIN11      Logon Failure - Unknown user or bad password                5        60122
 
 ```
-<a href="screenshots/wazuh-dashboard.png" target="_blank">
-  <img src="screenshots/wazuh-dashboard.png" alt="Click to enlarge dashboard" width="100%">
-</a
+
+| Verification Screenshot |
+| :---: |
+| [![Wazuh Dashboard](screenshots/wazuh-dashboard.png)](screenshots/wazuh-dashboard.png) <br> *Click image to open full resolution view* |
+
 ---
 
 ### 5. Network IDS Deployment & Routing Workarounds (Suricata)
