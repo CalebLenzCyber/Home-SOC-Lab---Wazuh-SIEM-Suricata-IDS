@@ -130,7 +130,10 @@ Jul 28, 2026 @ 20:18:11.631  PXMX-WIN11      Active response: active-response/bi
 Jul 28, 2026 @ 20:18:11.552  PXMX-WIN11      Active response: active-response/bin/netsh.exe - add        3        657
 Jul 28, 2026 @ 20:18:10.195  PXMX-WIN11      Logon Failure - Unknown user or bad password                5        60122
 ```
-<img src="screenshots/wazuh-dashboard.png" alt="Wazuh Event Dashboard Log Trail" width="100%">
+<a href="screenshots/wazuh-dashboard.png" target="_blank">
+  <img src="screenshots/wazuh-dashboard.png" alt="Click to enlarge dashboard" width="100%">
+</a>
+
 ---
 
 ### 5. Network IDS Deployment & Routing Workarounds (Suricata)
