@@ -1,4 +1,4 @@
-markdown# Home SOC Lab — Wazuh SIEM & Suricata IDS (with SOAR Automation)
+Home SOC Lab — Wazuh SIEM & Suricata IDS (with SOAR Automation)
 
 A self-built security operations lab simulating a small enterprise network, engineered to gain hands-on experience with SIEM deployment, custom detection engineering, SOAR playbooks, and network security monitoring.
 
